@@ -1,0 +1,63 @@
+._src_App__App {
+  text-align: center;
+}
+
+._src_App__App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  ._src_App__App-logo {
+    animation: _src_App__App-logo-spin infinite 20s linear;
+  }
+}
+
+._src_App__App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+._src_App__App-link {
+  color: #61dafb;
+}
+
+@keyframes _src_App__App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+    background-color: #000;
+}
+._src_components_stopwatch__stopwatch-time {
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+}
+._src_components_stopwatch__stopwatch-buttons {
+    display: flex;
+    justify-content: center;
+}
+._src_components_stopwatch__stopwatch-buttons button {
+    margin: 20px;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #fff;
+}
+._src_components_stopwatch__stopwatch-buttons button:first-child {
+    background-color: green;
+}
+._src_components_stopwatch__stopwatch-buttons button:last-child {
+    background-color: red;
+}
